@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title></title>
+    <link href="./css/testXzt.css" rel="stylesheet" type="text/css">
+    <script src="./js/flexible.debug.js"></script>
+    <script src="./js/jquery-1.7.1.js"></script>
+    <script src="./js/canvas.js"></script>
+    <script src="./js/testXzt.js"></script>
+
+</head>
+<body>
+<div style="width: 100%;overflow-x: scroll">
+    <table border="1">
+        <tr>
+            <th>方</th>
+            <th>上</th>
+            <th>下</th>
+            <th>上</th>
+            <th>下</th>
+            <th>上</th>
+            <th>下</th>
+            <th>上</th>
+            <th>下</th>
+            <th>上</th>
+            <th>下</th>
+        </tr>
+        <tr>
+            <td>载</td>
+            <td colspan="2" id="05849ff7-912a-46e8-8353-9a78f5d287d5">30%</td>
+            <td colspan="2" id="d5bc4860-447b-4d9e-a04d-35a1a8e2bd32">40%</td>
+            <td colspan="2" id="3328a37c-d52c-4e84-9f67-6eb35a4704a2">45%</td>
+            <td colspan="2" id="b516b026-0e85-4f8e-8486-7353586a9604">50%</td>
+            <td colspan="2" id="380e2f84-2679-4461-b6cb-1d5f3d37ffd4">60%</td>
+        </tr>
+        <tr>
+            <th>电</th>
+            <th id="8831344f-df51-4406-8147-97a8fa1b8321">2.9</th>
+            <th id="780a2956-3c74-49f3-a9c8-2a0e9987a5d8">10.2</th>
+            <th id="f7b72758-1a38-471b-9b4b-64c80ef01dc0">4</th>
+            <th id="88d70134-2a47-4c28-83dd-3f6128801d84">7.3</th>
+            <th id="d676ac3a-02b1-481c-b457-c3763cca694b">5.7</th>
+            <th id="51f25018-95ab-4124-9489-e3dae4c32074">5.7</th>
+            <th id="171c2575-0cbf-4f74-9f88-05d18c979981">7.5</th>
+            <th id="2809f3f2-be48-45d9-b7a3-8a6e468455fe">4</th>
+            <th id="fe89d0f0-86f3-450d-b399-76a3a5830b2a">8.6</th>
+            <th id="c8e1864c-fb31-4e3e-8ce5-3fb15386eb11">2.2</th>
+        </tr>
+    </table>
+</div>
+<div id="container">
+    <canvas id="canvas"></canvas>
+
+</div>
+</body>
+<!-- 背景 -->
+<div id="background" class="background"></div>
+<div id="popup" class="transition">
+    <div class="popup_title">修改</div>
+    <div class="popup_content">
+        <input type="text">
+    </div>
+    <div class="popup_btns">
+        <ul>
+            <li class="p_b_btn ripple">取消</li>
+            <li class="p_b_btn ripple">确定</li>
+        </ul>
+    </div>
+</div>
+</html>
